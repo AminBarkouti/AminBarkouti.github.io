@@ -1,4 +1,4 @@
-:root{  /* Put colors in variabels */
+:root{ 
     --primaryColor:#ff274b;
     --secondaryColor:#f7bcf7;
     --lightColor:#ffffff;
@@ -25,7 +25,7 @@ h1{
     margin: 1.7rem 0;
 }
 h2{
-    font-size: 2.2rem;  /* 1rem = qimt lfont-size li7atineh fil html lfouq(16px) */
+    font-size: 2.2rem;  
     letter-spacing: 0.12rem;
     cursor: pointer;
 }
@@ -88,6 +88,7 @@ nav ul li a{
     text-decoration: none;
     text-transform: capitalize;
     transition: 0.4s;
+    font-size: medium;
 }
 nav ul li a:hover{
     color: var(--primaryColor);
@@ -108,7 +109,7 @@ nav ul li a:hover{
 }
 
 .content{
-    flex-grow: 1;   /* bech ye5o bqit lespace lkoll fil flex */
+    flex-grow: 1;   
     padding: 0 var(--padding);
     display: flex;
     align-items: center;
@@ -378,7 +379,7 @@ footer .content-footer .end{
     transition: 0.4s;
     margin-bottom: 5px;
 }
-/* bech tbadel icon l X */
+
 #menu.is-active span:nth-child(1){  
     transform: translate(0px, -2px) rotate(45deg);
 }
@@ -465,7 +466,7 @@ background-color: var(--primaryColor);
 
     .box{
         justify-content: center;
-        flex-wrap: wrap;    /* taht b3adhhm */
+        flex-wrap: wrap;    
         gap: 1rem;
     }
     .Skills .container-images{
@@ -562,7 +563,7 @@ background-color: var(--primaryColor);
 
     .box{
         justify-content: center;
-        flex-wrap: wrap;    /* taht b3adhhm */
+        flex-wrap: wrap;   
         gap: 1rem;
     }
     .Skills .container-images{
@@ -656,7 +657,7 @@ background-color: var(--primaryColor);
 
     .box{
         justify-content: center;
-        flex-wrap: wrap;    /* taht b3adhhm */
+        flex-wrap: wrap;   
         gap: 1rem;
     }
     .Skills .container-images{
@@ -755,7 +756,7 @@ background-color: var(--primaryColor);
 
     .box{
         justify-content: center;
-        flex-wrap: wrap;    /* taht b3adhhm */
+        flex-wrap: wrap;   
         gap: 1rem;
     }
  
